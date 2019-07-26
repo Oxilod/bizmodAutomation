@@ -27,7 +27,7 @@ public class FirstTest extends TestParent {
 
     @Test
     @Description("Test Description")
-    public void myTest() {
+    public void createCompanyTest() {
         model.companies().addButton().click();
 //        Step one of the form
         createCompany.companyName().sendKeys("My Custom Company Name");
